@@ -1,0 +1,429 @@
+/*DESIGN*/
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    background: black;
+}
+
+.logcup{
+    background-image: url("/Users/beknazarbekov/Documents/Website/CUP.png");
+}
+.wrapper {
+    width: 100%;
+    background: black;
+    
+}
+.con{
+    padding-top: 130px;
+    
+}
+
+
+
+/*отступы*/
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*LOGO*/
+logo{
+    width: 100px;
+}
+.logo img{
+    float: left;
+    top: 100px;
+    left: 40%;
+    position: absolute;
+    width: 385px;
+    height: 451px;
+}
+/* Header*/
+.header {
+    width: 100%;
+    padding-top: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+
+
+}
+change_color{
+    color:#fff;
+}
+/*Nav*/
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+
+    color: #fff;
+    text-decoration: none;
+
+    transition: color .1s linear;
+}
+.nav_link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: #fce38a;
+    opacity: 0;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity .1s linear;
+}
+
+.nav_link:hover{
+    color: #fce38a;
+}
+.nav_link:hover:after{
+    opacity: 1;
+}
+
+/*Button*/
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+
+    border: 2px solid black;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn:hover{
+    background-color: black;
+    color:#333;
+}
+.prod_bg._1 {
+    background-image: url("");
+}
+
+.s6 {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/back.jpg");
+  background-position: 100% 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.s6_div1 {
+  position: static;
+  max-width: 1330px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.s6_cont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.s6_box {
+  flex: 0 25%;
+}
+.s7_box {
+  flex: 0 25%;
+}
+
+.prod_bg {
+  position: relative;
+  height: 30vh;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.prod_bg {
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig1.png");
+}
+.prod_bg._2 {
+  background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig2.2.png");
+}
+
+.prod_bg._3 {
+  background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig3.3.png");
+}
+
+.prod_bg._4 {
+  background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig 12.png");
+}
+
+.prod_bg._5 {
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig5.png");
+}
+.prod_bg._6 {
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig6.png");
+}
+.prod_bg._7 {
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig4.44.png");
+}
+.prod_bg._8 {
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig11.png");
+}
+
+
+.prod_link {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 500ms ease;
+  color: #fff;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.prod_link:hover {
+  opacity: 1;
+}
+
+.text-block-5 {
+  display: block;
+  padding: 15px 40px;
+  background-color: #dcb98b;
+  background-color: #dcb98b;
+}
+
+
+.cont {
+    padding-top: 7vh;
+    padding-bottom: 12vh;
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/stakani-fon2.jpg");
+    background-position: 100% 50%;
+    background-size: cover;
+    text-align: center;
+}
+
+.persons{
+  margin-top: 30px;
+    
+    margin: 0 auto;
+    
+   
+}
+
+.column {
+  
+  padding: 10px;
+  height: 300px;
+    display: flex;
+}
+.name_university{
+    align-items: center;   
+}
+.left_side{
+  width: 33%;
+  margin: 0 auto;
+  margin-top: 25px;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.right_side{
+  width: 33%;
+  margin: 0 auto;
+  margin-top: 135px;
+    align-items: right;
+    padding-left: 100px;
+
+}
+
+.button_name{
+  border: 3px solid #17a2b8;
+  font-size: 30px;
+  color: #17a2b8;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 250px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  font-family: Arial, sans-serif;
+  position: relative;
+  transition: 0.5s;
+  overflow: hidden;
+  border-radius: 50px;
+    align-items: center;
+}
+
+.button_name:before,
+.button_name::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #17a2b8;
+  top:0;
+  left: -100%;
+  opacity: 0.5;
+  transition: 0.5s;
+  z-index: -1;
+}
+.button_name::after{
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+.button_name:hover{
+  color:#fff;
+}
+.button_name:hover::before,
+.button_name:hover::after{
+  left: 0;
+}
+.card-photo{
+  display: block;
+  width: 350px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+.card-title{
+  font-size: 20px;
+  text-align: center;
+  color: #30727b;
+}
+.card-text{
+  font-size: 14px;
+}
+.card-subtitle{
+  font-size: 16px;
+  color: #30727b;
+  padding-bottom: 10px;
+}
+.card-address{
+  font-size: 16px;
+  color:#30727b;
+}
+.card-ul{
+  font-style: italic;
+  padding-left:
+}
+
+.Person_text{
+    margin-top: 100px;
+  text-align: center;
+    color: aliceblue;
+}
+
+#btnScrollTop{
+    position: fixed;
+    right: 70px;
+    bottom: 70px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #450c08;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box;
+padding and width stays in place */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+
+.bottom_side {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} 
+.button_submit {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button_submit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_submit span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_submit:hover span {
+  padding-right: 25px;
+}
+
+.button_submit:hover span:after {
+  opacity: 1;
+  right: 0;
+}

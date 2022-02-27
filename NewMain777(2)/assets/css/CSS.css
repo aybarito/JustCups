@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    padding: 1rem 8rem;
+    background-color: #EEF3F0;
+}
+
+    .navbar .navbar-brand {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #333;
+    }
+	
+	
+   
+
+
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+    color: black;
+    font-size: 1.4rem;
+    padding: 0 0.8rem;
+}
+
+    #navbarSupportedContent > ul > li:nth-child(n) > a:hover {
+        color: #333;
+    }
+
+#navbarSupportedContent > button {
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    margin: 0.5rem;
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+    .about .text h2 {
+        color: #333;
+        font-weight: 800;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    .about .text p {
+        color: #333;
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    .about .text a {
+        background: #333;
+        font-weight: 600;
+        padding: 0.6rem 1.4rem;
+        border-radius: 30px;
+        text-decoration: none;
+        color: white;
+    }
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+}
+
+.mid .hero h1 {
+    font-weight: bold;
+}
+
+.mid .hero p {
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+}
+
+.kingop {
+    padding: 3rem 1.5rem;
+}
+
+@media screen and (max-width:988px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    body > section:nth-child(3) > div > div > div > div.one.col-lg-3.col-md-3.col-12.w-25.m-2.retail > a {
+        background: #333;
+        font-weight: 400;
+        padding: 0.6rem 1rem;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black
+    }
+
+    body > section:nth-child(3) > div > div > div > div.one.col-lg-3.col-md-3.col-12.w-25.m-2.brands > a {
+        background: #333;
+        font-weight: 400;
+        padding: 0.6rem 1rem;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black
+    }
+
+    .kingop {
+        padding: 0.6rem 1.5rem;
+    }
+}

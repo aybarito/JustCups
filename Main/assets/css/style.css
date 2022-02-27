@@ -1,0 +1,237 @@
+/*DESIGN*/
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.wrapper {
+    width: 100%;
+    background: black;
+}
+.con{
+    padding-top: 130px;
+}
+/*отступы*/
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Header*/
+.header {
+    width: 100%;
+    padding-top: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+
+
+}
+change_color{
+    color:#fff;
+}
+/*Nav*/
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+/*Button Bootstrap*/
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+
+    border: 2px solid black;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.s2_h1 {
+    display: flex;
+    position: center;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    height: 20px;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.s2_h1._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+
+.s6 {
+  background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/back.jpg");
+  background-position: 100% 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.s6_div1 {
+  position: static;
+  max-width: 1330px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.s6_cont {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.s6_box {
+  flex: 0 25%;
+}
+.s7_box {
+  flex: 0 25%;
+}
+
+.prod_bg {
+  position: relative;
+  height: 30vh;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.prod_bg {
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig1.png");
+}
+.prod_bg._2 {
+  background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig2.2.png");
+}
+
+.prod_bg._3 {
+  background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig3.3.png");
+}
+
+.prod_bg._4 {
+  background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig 12.png");
+}
+
+.prod_bg._5 {
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig5.png");
+}
+.prod_bg._6 {
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig6.png");
+}
+.prod_bg._7 {
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig4.44.png");
+}
+.prod_bg._8 {
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/orig11.png");
+}
+
+
+.prod_link {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.prod_link:hover {
+  opacity: 1;
+}
+
+.text-block-5 {
+  display: block;
+  padding: 15px 40px;
+  background-color: #dcb98b;
+}
+.contact{
+    display: block;
+    padding-bottom: 3vh;
+    justify-content: center;
+    background: white;
+}
+
+.cont_h1 {
+    display: flex;
+    position: center;
+    font-family: 'Noto Serif Display', sans-serif;
+    justify-content: center;
+    height: 20px;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.cont_h1._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.cont {
+    padding-top: 7vh;
+    padding-bottom: 12vh;
+    background-image: url("C:/Users/dimas/WebstormProjects/Main/assets/images/stakani-fon2.jpg");
+    background-position: 100% 50%;
+    background-size: cover;
+    text-align: center;
+}
+#btnScrollTop{
+    position: fixed;
+    right: 70px;
+    bottom: 70px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #450c08;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+

@@ -1,0 +1,145 @@
+body{
+    font-family: Tahoma;
+    background: #ff6c00;
+    margin: 0;
+    background-image: url(assets/images/back2.jpg);
+}
+.wrapper {
+    width: 100%;
+    height: 700px;
+    background: black;
+}
+.header {
+    width: 100%;
+    padding-top: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: black;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+
+
+}
+change_color{
+    color:#fff;
+}
+/*Nav*/
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+
+    color: #fff;
+    text-decoration: none;
+
+    transition: color .1s linear;
+}
+.nav_link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: #fce38a;
+    opacity: 0;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity .1s linear;
+}
+
+.nav_link:hover{
+    color: #fce38a;
+}
+.nav_link:hover:after{
+    opacity: 1;
+}
+
+/*Button*/
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+
+    border: 2px solid black;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn:hover{
+    background-color: black;
+    color:#333;
+}
+h1{
+    cursor: help;
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #5200a5;
+}
+form{
+    margin: 0 auto;
+    background: rgba(0,186,255,0.77);
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+.group{
+    margin: 10px;
+    padding: 5px;
+}
+label{
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+input{
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 20px/20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+input:focus{
+    border: 2px solid #6c00ff;
+    transform: translateX(15px);
+    width: 385;
+}
+button{
+    cursor: pointer
+}
+
+
+
+
+
+
+
